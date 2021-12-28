@@ -175,7 +175,7 @@ print(id(a), id(b))
 from copy import copy, deepcopy
 
 a = [['Привет'], 10]
-b = a.copy()
+b = copy(a)  # аналогичен поверхностному копированию через метод списка a.copy() и срез a[::]
 print(id(a), id(b))
 b[1] = 15
 print(a, b)
