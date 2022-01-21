@@ -1,5 +1,7 @@
+import os
+import random
 from string import ascii_lowercase, digits
-from start_7_1 import BASE_DIR, os, random
+from code_7 import BASE_DIR
 
 
 letters = ''.join([ascii_lowercase, digits])
