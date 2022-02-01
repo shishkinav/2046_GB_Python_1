@@ -13,9 +13,9 @@ class Robot(ABC):
         else:
             print(f'{self.__class__.__name__}: вЫключился')
 
-    # @abstractmethod
-    # def say(self):
-    #     pass
+    @abstractmethod
+    def say(self):
+        pass
 
 
 class VacuumCleaner(Robot):
